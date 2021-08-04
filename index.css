@@ -40,10 +40,19 @@ blockquote, q {
     html{
         font-size: 62.5%;
     }
+    *{
+        border: 1px solid gray;
+    }
+    h1{
+        font-family: 'Chelsea Market', cursive; 
+        font-size: 5rem;
+    }
+
     body{
-        font-size: 1.6rem;
+        font-size: 2.6rem;
         line-height: 1.5;
-        color:#4f4f4f  /*accessibility*/
+        font-family: 'Roboto Mono', monospace;
+        color:black  /*accessibility*/
     }
     section{
         padding: 4% 0;
@@ -77,3 +86,32 @@ blockquote, q {
             margin-right: 10%
         }
         
+        /*top section styles*/
+        .top{
+            
+            position: relative;
+        }
+
+        .left, .right{
+            text-align: center;
+            display: inline-block;
+        }
+        .left{
+            width: 35%;
+        }
+        .left img{
+            width: 50%;
+            border-radius: 50%;
+
+        }
+        .right{
+            width: 60%;
+            position: absolute;
+            top: 20%;
+        }
+        p{
+            width: 52%;
+            text-align: center;
+            display: inline-block;
+            padding-top: 2%;
+        }
